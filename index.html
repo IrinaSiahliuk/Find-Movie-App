@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Find Movie App</title>
+</head>
+<body>
+    <header>
+        <h1 class="headerTitle">Поиск фильмов</h1>
+        <input type="text" placeholder="Название фильма" id="findMovieInput" />
+        <button class="headerHeartBtn">
+            <img id="headerHeartImg" src="./images/heart.svg" />
+        </button>
+    </header>
+
+    <main>
+        <div class="moviesListWrapper"></div>
+        <div class="pageBtn">
+            <button class="arrowBtn">
+                <img id="arrowLeftImg" src="./images/arrow-left.svg" />
+            </button>
+            <button class="arrowBtn">
+                <img id="arrowRightImg" src="./images/arrow-right.svg" />
+            </button>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>

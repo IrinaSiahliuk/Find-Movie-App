@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+
+    color: #a32a73;
+    background-color: #d6a6d0;
+}
+
+.headerHeartBtn{
+    background-color: #d6a6d0;
+    border: none;
+}
+
+#headerHeartImg{
+    width: 40px;
+}
+
+#findMovieInput{
+    padding: 15px 10px;
+    
+    font-size: 20px;
+    outline: none;
+    border: none;
+    color: #a32a73;
+    background-color: #dcc3d9;
+}
+
+main{
+    background-color: #dcc3d9;
+}
+
+.moviesListWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 18px;
+}
+
+.movieTitle{
+    font-size: 18px;
+    color: #a32a73;
+}
+
+.moviePoster{
+    width: 280px;
+    height: 420px;
+
+    border-radius: 5px;
+}
+
+.movieItem:hover {
+    transition: all 0.3s ease;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.movieInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    width: 280px;
+}
+
+.heartBtn{
+    background-color: #dcc3d9;
+    border: none;
+}
+
+#heartImg{
+    width: 30px;
+}
+
+.pageBtn{
+    display: flex;
+    justify-content: center;
+}
+
+.arrowBtn{
+    background-color: #dcc3d9;
+    border: none;
+    cursor: pointer;
+}
+
+.arrowBtn img{
+    width: 50px;
+}
